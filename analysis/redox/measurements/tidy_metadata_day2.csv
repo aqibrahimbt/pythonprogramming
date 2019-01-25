@@ -1,0 +1,34 @@
+key	value
+Method name	 masterkurs2018_n2a_undifferentiated
+Application	 SparkControl
+Device	 SPARK 10M
+Firmware	LUM:V4.0.22|ABS:V4.2.9|ABS_MEX:V4.1.7|MTP:V9.0.18|FLUOR:V4.2.12|GCM:V3.0.2 
+Date	2018-01-10 
+Time	11:00 
+System 	PC-2WPML82
+User 	NT-AUTORITÄT\NETZWERKDIENST
+Plate 	[GRE96fw_chimney] - Greiner 96 Flat White [GRE96fw_chimney]
+Lid lifter 	Removable lid 
+Humidity Cassette 	No humidity cassette 
+List of actions in this measurement script	
+Name	GRE96fw_chimney
+Temperature control	On
+Target temperature	37°C
+Wait minimum	36,5°C
+Wait maximum	37,5°C
+Gas control	CO2
+CO2 target value	5%
+CO2 wait minimum	4,5%
+CO2 wait maximum	5,5%
+User intervention text	Add glutamate
+Kinetic cycles	49
+Interval time	00:30:00
+Attenuation	None
+Settle time	0ms
+Integration time	1000ms
+Output	Counts / s
+Part of Plate	A1-D12;E1-H11
+Type	Start at cycle
+Operation	at cycle 7
+Start Time	2018-01-09 12:06:24
+End Time	2018-01-10 10:38:15

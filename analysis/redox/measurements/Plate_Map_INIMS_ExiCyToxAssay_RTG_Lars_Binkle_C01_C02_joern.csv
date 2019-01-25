@@ -1,0 +1,17 @@
+Wells	Labels
+A2:A5	Supernatant 
+B2:C3	DMSO + PBS 
+D2:E3	DMSO + Glu [ 50 \muM ]
+F2:G3	APV [ 50 \muM + Glu [ 50 \muM ]
+B4:C5	C01 [ 5 \muM ]
+D4:E5	C01 [ 0,5 \muM ]
+F4:G5	C01 [ 0,05 \muM ]
+B6:C7	C01 [ 5 \muM + Glu [ 50 \muM ]
+D6:E7	C01 [ 0,5 \muM + Glu [ 50 \muM ]
+F6:G7	C01 [ 0,05 \muM + Glu [ 50 \muM ]
+B8:C9	C02 [ 5 \muM ]
+D8:E9	C02 [ 0,5 \muM ]
+F8:G9	C02 [ 0,05 \muM ]
+B10:C11	C02 [ 5 \muM + Glu [ 50 \muM ]
+D10:E11	C02 [ 0,5 \muM + Glu [ 50 \muM ]
+F10:G11	C02 [ 0,05 \muM + Glu [ 50 \muM ]
