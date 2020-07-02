@@ -61,4 +61,17 @@ print(total_profit_2)
 
 
 ## Question 10 (Medium) - 10 minutes
-'''Create a function that checks if the given arguments are of the same type. Return True if thay are and False if they are not'''
+'''Create a function that checks if the given arguments are of the same datatype. Return True if they are and False if they are not'''
+
+def check_type(argument_a, argument_b):
+    print('Datatype of argument_a is ', type(argument_a))
+    print('Datatype of argument_b is ', type(argument_b))
+    if type(argument_a) == type(argument_b):
+        return True
+    else:
+        return False
+
+sample_1 = 1 
+sample_2 = '1' 
+check = check_type(sample_1, sample_2)
+print(check)
