@@ -75,3 +75,6 @@ sample_1 = 1
 sample_2 = '1' 
 check = check_type(sample_1, sample_2)
 print(check)
+
+
+
