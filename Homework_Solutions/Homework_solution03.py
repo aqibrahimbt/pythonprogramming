@@ -76,3 +76,20 @@ word_3 = include_string('good')
 print(word_1)
 print(word_2)
 print(word_3)
+
+
+
+
+
+### tASK 1:  Write a method that uses a for loop to print each number from 1 to 10.
+
+### Task 2:  Write a method that uses a while loop to count from 1 to 100 and print the number of the current iteration to the screen. (That is, the first time through, the loop should print “1”; “2” the next time through; and so forth.)
+
+
+### Task 3: Write a function that accepts as input the height of a person in centimeters and then converts it to feet and then returns the value. Expect you to print out the value e.g. 'Your height:  100cm is equivalent to 20ft'.  
+#a. Make sure the function only accepts a number. 
+#b. Make sure the input to the function is less than 500cm. If the number is >= 500, print('not a realistic height').
+
+### 
+
+
