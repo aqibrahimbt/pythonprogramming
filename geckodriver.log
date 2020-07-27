@@ -1,0 +1,4 @@
+1595688715169	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/v8/x5dbk7x11d95gfzlmvq8dxd00000gn/T/rust_mozprofileJQTPWW"
+*** You are running in headless mode.
+1595688716942	Marionette	INFO	Listening on port 52912
+1595688717018	Marionette	WARN	TLS certificate errors will be ignored for this session
