@@ -66,10 +66,7 @@ print(total_profit_2)
 def check_type(argument_a, argument_b):
     print('Datatype of argument_a is ', type(argument_a))
     print('Datatype of argument_b is ', type(argument_b))
-    if type(argument_a) == type(argument_b):
-        return True
-    else:
-        return False
+    return type(argument_a) == type(argument_b)
 
 sample_1 = 1 
 sample_2 = '1' 

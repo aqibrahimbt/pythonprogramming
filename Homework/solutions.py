@@ -9,8 +9,8 @@ my_dictionary = dict(zip(keys, values))
 ## Question 2 
 dict1 = {'Ten':10, 'Twenty':20, 'Thirty':30}
 dict2 = {'Thirty':30, 'Fourty':40, 'Fifty':50}
-#(Option 1) # Advanced feature 
-dict3 = {**dict1, **dict2}
+#(Option 1) # Advanced feature
+dict3 = dict1 | dict2
 #print(dict3)
 
 # (Option 2)
@@ -23,9 +23,9 @@ dict3.update(dict2)
 listOne = [3, 6, 9, 12, 15, 18, 21]
 listTwo = [4, 8, 12, 16, 20, 24, 28]
 
-listThree = list()
+listThree = []
 oddElements = listOne[1::2] # odd index
-evenElements = listTwo[0::2] # even index
+evenElements = listTwo[::2]
 #print('odd elements: ' + str(oddElements))
 #print('even elements: ' + str(evenElements))
 listThree.extend(oddElements)
@@ -36,7 +36,7 @@ listThree.extend(evenElements)
 ## Question 4
 val_list = [11, 45, 8, 11, 23, 45, 23, 45, 89]
 
-count = dict() #initialize dict
+count = {}
 for number in val_list:
     #print(number)
     if (number in count):
@@ -73,10 +73,7 @@ new_list = list(filter(None, list1))
 ## Question 7
 def calculate(number):
     print(number)
-    if number:
-        return number + calculate(number - 1)
-    else:
-        return 0
+    return number + calculate(number - 1) if number else 0
 
 result = calculate(100)
 print('total result: ', result)
