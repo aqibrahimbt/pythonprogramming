@@ -66,9 +66,9 @@ def include_string(word):
     if len(word) < 3:
         return word
     elif word.endswith('go'):
-        return word + 'ly'
+        return f'{word}ly'
     else:
-        return word + 'ing'
+        return f'{word}ing'
 
 word_1 = include_string('go')
 word_2 = include_string('going')
